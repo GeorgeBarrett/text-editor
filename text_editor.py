@@ -31,12 +31,14 @@ line3 = input('Line 3: ')
 print('I\'m going to write these to the file.')
 
 # these write the inputs into the text file and include the line breaks
-target.write(line1)
-target.write('\n')
-target.write(line2)
-target.write('\n')
-target.write(line3)
-target.write('\n')
+# target.write(line1)
+# target.write('\n')
+# target.write(line2)
+# target.write('\n')
+# target.write(line3)
+# target.write('\n')
+
+target.write(f'{line1}\n{line2}\n{line3}\n')
 
 print('The text file is now complete and closed.')
 
